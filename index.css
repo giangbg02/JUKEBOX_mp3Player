@@ -1,0 +1,61 @@
+#loadSongMenuButton {height: 100%; width: 100%; display: inline-block}
+#loadFile {height: 100%; width: 100%; display: inline-block}
+#LoadtoListButton {float: left; margin-left: 5px;display: none;}
+#loadFileInput {float: left; margin-left: 5px;}
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ .visibleInvisible {display: inline-block;
+      background-color: green;
+ }
+ 
+.playerFrame {background-color: black; 
+                    opacity: 0.4; 
+                    width:55%; 
+                    height: 500px; 
+                    margin-left: 10%; 
+                    margin-top: 100px; 
+                    border-radius: 15px;  }
+.playerPlaybackBar {background-color: none; 
+                    opacity: 0.8; width:55%; 
+                    height: 60px; 
+                    display: block; 
+                    margin-left: 10%; 
+                    margin-top: 0px;
+                    padding: 0px;
+                     }
+.loadSongBar {background-color: #a5bde2;
+                    opacity: 0.6;
+                    display: none;
+                    opacity: 0.8; width:57%; 
+                    height: 40px;
+                    margin-left: 9%; 
+                    margin-top: 0px;
+                    padding: 0px;
+                    border-radius: 15px;
+                    margin-bottom: 10%; 
+               }
+ 
+.buttons {width: 80px; height: 40px;}
+.fa-play-circle {font-size: 3em}
+.fa-pause-circle {font-size: 3em}
+#bNext {font-size: 3em}
+.playList { width: 30%; 
+               border: 1px solid white; 
+               height: 100%; 
+               float: right; 
+               margin: 0px; 
+               padding: 0px; 
+               background-color: ivory; 
+               opacity: 0.6;
+               font-size: 2em;
+}
+ 
+ 
